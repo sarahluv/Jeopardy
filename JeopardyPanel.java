@@ -7,6 +7,23 @@ Purpose: To show a GUI timer for a Jeopardy final question
 *******************************************************************************
 */
 
+/*------------------------------------------------------------------------------
+    FEEDBACK FROM INSTRUCTOR:
+    WOW.  Nice work.  The timer is great.  Stops and starts as it should and 
+    the sound works beautifully.  Look at lines 139 - 145 and 155-161.  
+    There is some duplication in the code.  In an if statement, you only 
+    want code that does DIFFERENT things.  For example, lines 139-140 and 
+    155-156 are identical.  Move those line before the if statement and only 
+    have 1 copy of those lines.  Lines 141 and 157 are different so they can 
+    stay inside the if statement.  The remaining 4 lines in each part are the 
+    same.  Move them after the  IF statement and only have 1 copy of those 
+    lines.  I hope this makes sense. 
+
+    This is one example of not using duplication in code in if statements. 
+
+    Overall -- WONDERFUL work.
+------------------------------------------------------------------------------*/
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
